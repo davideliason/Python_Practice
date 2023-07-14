@@ -1,14 +1,15 @@
-#!/usr/bin/env pythonn
+#!/usr/bin/env python3
 
 import random
 rand_num = random.randint(1,10)
 
 def random_num_output(x):
     if x == 1:
-        print("one")
+        return("one")
     elif x == 2:
-        print('between')
+        return('between')
     else:
-        print(' not one or two')
+        return(' not one or two')
 
-random_num_output(rand_num)
+result = random_num_output(rand_num)
+print(result)
