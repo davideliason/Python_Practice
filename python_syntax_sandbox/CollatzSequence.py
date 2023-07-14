@@ -13,7 +13,8 @@ def collatz(number):
         print(number // 2)  # floor division 
         return number // 2
     else:
-        print('not even')
+        print(3 * number + 1)
+        return(3 * number + 1) 
 
 # try it out
 print(collatz(2))
