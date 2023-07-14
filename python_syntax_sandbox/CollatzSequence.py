@@ -7,3 +7,15 @@ Remember to convert the return value from input() to an integer with the int() f
 '''
 print('testing 123')
 
+# main
+def collatz(number):
+    if number % 2 == 0:  # check even 
+        print(number // 2)  # floor division 
+        return number // 2
+    else:
+        print('not even')
+
+# try it out
+print(collatz(2))
+print(collatz(3))
+ 
