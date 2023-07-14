@@ -16,7 +16,10 @@ def collatz(number):
         print(3 * number + 1)
         return(3 * number + 1) 
 
-# try it out
-print(collatz(2))
-print(collatz(3))
- 
+#input value
+input_value = int(input())
+
+#test
+print(collatz(input_value))
+
+
