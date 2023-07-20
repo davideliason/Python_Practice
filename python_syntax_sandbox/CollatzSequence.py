@@ -19,7 +19,10 @@ def collatz(number):
 # loop
 
 #input value
-input_value = int(input())
+try:
+    input_value = int(input())
+except ValueError:
+    print('only number input')
 
 #prep loop
 int_val = collatz(input_value)
