@@ -9,7 +9,7 @@ allGuest = {'Alice': {'apples': 5, 'pretzels': 12},
 def getItem(dict, item):
     totalNumOfItem = 0 # sum of specific item by all persons
     for k, v in dict.items():
-        totalNumOfItem =totalNumOfItem + v.get(item, 0) # get method returns 0 if item does not exist as a key)
+        totalNumOfItem =totalNumOfItem + v.get(item, 0) # get method returns 0 if item does not exist as a key
     return totalNumOfItem
 
 print('Number of things being brought: ')
