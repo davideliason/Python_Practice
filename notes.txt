@@ -5,4 +5,4 @@ dictionary: unordered, key:value pair
 string: ordered values "hello"
 set: unordered collection of unique valuse {1,2,"hello"}
 string: slice ex: str="hello" print(str(2:)). index ex: print(str[0])
-
+######
