@@ -22,3 +22,9 @@ $ sed -i '' 's/ORIGIN//g' preproinsulin-seq.txt # had to use '' b/c of Mac OS; t
 
 # REMOVE // using sed
 $ sed 's/\\\\//g' # have to escape each backslash
+
+# remove carriage returns
+$ sed -i 's/\r$//' filename.txt
+
+# remove spaces
+$ sed -i '' 's/ //g' preproinsulin-seq.txt
