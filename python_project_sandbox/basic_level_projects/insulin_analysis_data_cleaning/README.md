@@ -17,4 +17,8 @@ ORIGIN
 //
 
 **Cleaning the Data**
+# REMOVE ORIGIN
 $ sed -i '' 's/ORIGIN//g' preproinsulin-seq.txt # had to use '' b/c of Mac OS; this removes ORIGIN
+
+# REMOVE // using sed
+$ sed 's/\\\\//g' # have to escape each backslash
